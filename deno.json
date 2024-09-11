@@ -1,0 +1,22 @@
+{
+  "name": "@quentinadam/hex",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./hex.ts",
+  "imports": {
+    "@quentinadam/assert": "jsr:@quentinadam/assert@^0.1.7"
+  },
+  "publish": {
+    "exclude": [
+      ".github/",
+      ".vscode/"
+    ]
+  },
+  "fmt": {
+    "singleQuote": true,
+    "lineWidth": 120
+  },
+  "tasks": {
+    "check": "deno check **/*.ts"
+  }
+}
