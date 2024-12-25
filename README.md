@@ -10,7 +10,7 @@ A simple library to encode and decode hex strings.
 ```ts
 import * as hex from '@quentinadam/hex';
 
-const a = hex.decode('000102'); // returns Uint8Array([0, 1, 2])
+hex.decode('000102'); // returns Uint8Array([0, 1, 2])
 
-const b = hex.encode(new Uint8Array([0, 1, 2])); // returns '000102'
+hex.encode(new Uint8Array([0, 1, 2])); // returns '000102'
 ```
