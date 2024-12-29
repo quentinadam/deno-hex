@@ -1,5 +1,5 @@
 import assert from '@quentinadam/assert';
-import * as hex from './hex.ts';
+import * as hex from '../src/hex.ts';
 
 const encoded = '00010203112233';
 const decoded = new Uint8Array([0, 1, 2, 3, 0x11, 0x22, 0x33]);

@@ -1,22 +1,19 @@
 {
   "name": "@quentinadam/hex",
   "version": "0.1.1",
+  "description": "A simple library to encode and decode hex strings",
   "license": "MIT",
-  "exports": "./hex.ts",
+  "exports": "./src/hex.ts",
   "imports": {
-    "@quentinadam/assert": "jsr:@quentinadam/assert@^0.1.7"
-  },
-  "publish": {
-    "exclude": [
-      ".github/",
-      ".vscode/"
-    ]
+    "@quentinadam/assert": "jsr:@quentinadam/assert@^0.1.10",
+    "typescript": "npm:typescript@^5.7.2"
   },
   "fmt": {
     "singleQuote": true,
     "lineWidth": 120
   },
-  "tasks": {
-    "check": "deno check **/*.ts"
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true
   }
 }
