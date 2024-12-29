@@ -1,6 +1,6 @@
 {
   "name": "@quentinadam/hex",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple library to encode and decode hex strings",
   "license": "MIT",
   "exports": "./src/hex.ts",
