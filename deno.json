@@ -3,6 +3,11 @@
   "version": "0.1.2",
   "description": "A simple library to encode and decode hex strings",
   "license": "MIT",
+  "author": "Quentin Adam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quentinadam/deno-hex.git"
+  },
   "exports": "./src/hex.ts",
   "imports": {
     "@quentinadam/assert": "jsr:@quentinadam/assert@^0.1.10",
