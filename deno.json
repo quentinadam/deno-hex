@@ -1,6 +1,6 @@
 {
   "name": "@quentinadam/hex",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A simple library to encode and decode hex strings",
   "license": "MIT",
   "author": "Quentin Adam",
@@ -10,8 +10,8 @@
   },
   "exports": "./src/hex.ts",
   "imports": {
-    "@quentinadam/assert": "jsr:@quentinadam/assert@^0.1.11",
-    "typescript": "npm:typescript@^5.8.3"
+    "@quentinadam/assert": "jsr:@quentinadam/assert@^0.1.12",
+    "typescript": "npm:typescript@^5.9.2"
   },
   "fmt": {
     "singleQuote": true,
