@@ -1,4 +1,4 @@
-import assert from '@quentinadam/assert';
+import { assert } from '@quentinadam/assert';
 
 /**
  * Decodes a hex encoded string into a Uint8Array buffer.
